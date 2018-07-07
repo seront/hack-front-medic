@@ -1,0 +1,19 @@
+<mat-slider></mat-slider>
+
+<div class="d-flex container flex-wrap" padding-top-general cols="2" rowHeight="2:1">
+ 
+    <form>
+        <h1>Material Design Text Input With No Extra Markup</h1>
+        <input placeholder="Username" type="text" required="">
+        <input placeholder="Password" type="password" required="">
+        <button>Submit</button>
+    </form>
+      
+  <app-user-profile></app-user-profile>
+  <app-table-list></app-table-list>
+  <app-card *ngFor="let item of arrayOfCards" [inputCard]="item"></app-card>
+</div>
+
+
+
+
